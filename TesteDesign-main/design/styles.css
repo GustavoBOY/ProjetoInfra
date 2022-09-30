@@ -71,6 +71,7 @@ body{
 .container__equipamentos{
     background-color: var(--cor-de-fundo2);
     margin-top: 5vh;
+    margin-left: 20px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;

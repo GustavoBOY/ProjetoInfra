@@ -1,0 +1,103 @@
+:root{
+    --cor-texto: #000000;
+    --cor-textonav: #FFFFFF;
+    --cor-texto-botao: #FFFFFF;
+    --azul-navprincipal: #167bf7;
+    --navbar-principal: rgb(85, 83, 83);
+    --cor-de-fundo: #FFFFFF;
+    --cor-de-fundo2: #FFFFFF;
+    --cor-botao:rgb(235, 142, 29);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-texto);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.container__header,h1,a{
+    text-decoration: none;
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container__header img{
+    padding-left: 15px;
+    height: 8vh;
+    position: relative;
+    justify-content: right;
+}
+.container__nav{
+    background-color: var(--navbar-principal);
+    height: 5vh;
+}
+.opcao__principal{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 1em;
+    padding: 0.5em;
+}
+.opcao__principal a{
+    padding-left: 1vh;
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--cor-textonav);
+}
+.opcao__principal a:hover{
+    color: var(--azul-navprincipal);
+}
+
+
+
+
+
+.container__equipamentos h4, .titulo {
+    margin-bottom: 2vh;
+}
+.container__equipamentos{
+    background-color: var(--cor-de-fundo2);
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.container__equipamentos img{
+    position:relative;
+    display:inline-block;
+    margin:2rem 1rem;
+    width:300px;
+    background-color:#FFFFFF;
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.container__equipamentos img:after{
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity:0;
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    z-index: -1;
+}
+.container__equipamentos img:hover{
+    transform:scale(1.25,1.25);
+}
+.container__equipamentos img:hover::after{
+    opacity:1;
+}
+
+
+
+
+hr{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: auto;
+}

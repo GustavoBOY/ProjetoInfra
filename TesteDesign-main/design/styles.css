@@ -18,7 +18,18 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
-
+@media only screen and (max-device-width: 400px) {
+    body { width:500px; }
+}
+@media only screen and (max-device-width: 700px) {
+    .container__equipamentos { width:580px; }
+}
+@media only screen and (max-device-width: 600px) {
+    .container__header { width:600px;}
+}
+@media only screen and (max-device-width: 700px) {
+    .container__nav { width:700px; }
+}
 
 .container__header,h1,a{
     text-decoration: none;
@@ -54,8 +65,6 @@ body{
 .opcao__principal a:hover{
     color: var(--azul-navprincipal);
 }
-
-
 
 
 

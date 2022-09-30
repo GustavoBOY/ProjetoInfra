@@ -18,17 +18,14 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
-@media only screen and (max-device-width: 400px) {
-    body { width:500px; }
-}
-@media only screen and (max-device-width: 700px) {
-    .container__equipamentos { width:580px; }
-}
 @media only screen and (max-device-width: 600px) {
-    .container__header { width:600px;}
+    .container__equipamentos { width:450px; }
 }
-@media only screen and (max-device-width: 700px) {
-    .container__nav { width:700px; }
+@media only screen and (max-device-width: 450px) {
+    .container__header { width:450px;}
+}
+@media only screen and (max-device-width: 450px) {
+    .container__nav { width: 500px;}
 }
 
 .container__header,h1,a{

@@ -64,7 +64,21 @@ const equipamentos = [
     processador: 'Processador: Intel i5-10500T'
   },
   {
-    id: 9,
+    id: 10,
+    nome: 'Lenovo ThinkCentre M93p',
+    img: 'img/equipamentos/lenovom93p.png',
+    memoria: 'Memória RAM: DDR3 - Notebook',
+    processador: 'Processador: Intel i5-10500T'
+  },
+  {
+    id: 11,
+    nome: 'Lenovo ThinkCentre M720q',
+    img: 'img/equipamentos/lenovom720q.png',
+    memoria: 'Memória RAM: DDR4 - Notebook',
+    processador: 'Processador: Intel i5-8500T'
+  },
+  {
+    id: 20,
     nome: 'Dell Latitude 3420',
     img: 'img/equipamentos/latitude3420.png',
     memoria: 'Memória RAM: DDR4 - Notebook',

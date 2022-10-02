@@ -1,6 +1,6 @@
 class MenuNavbar{
     constructor(menu, navList, navLinks){
-        this.menuNavbar = document.querySelector(menu);
+        this.menu = document.querySelector(menu);
         this.navList = document.querySelector(navList);
         this.navLinks = document.querySelectorAll(navLinks);
         this.activeClass = "active";
@@ -17,15 +17,16 @@ class MenuNavbar{
 
     handleClick(){
         this.navList.classList.toggle(this.activeClass);
+        this.menu.classList.toggle(this.activeClass);
         this.animateLinks();
     }
 
     addClickEvent(){
-        this.menuNavbar.addEventListener("click", this.handleClick);
+        this.menu.addEventListener("click", this.handleClick);
     }
 
     init() {
-        if (this.menuNavbar){
+        if (this.menu){
             this.addClickEvent();
         }
         return this;

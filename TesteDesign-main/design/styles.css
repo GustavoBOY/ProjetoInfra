@@ -80,6 +80,9 @@ nav{
     a{
         color: #FFFFFF;
     }
+    a:hover{
+        color: black;
+    }
     .nav-list li{
         margin-left: 0;
         opacity: 1;

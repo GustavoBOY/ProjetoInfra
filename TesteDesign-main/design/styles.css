@@ -64,7 +64,7 @@ nav{
         top: 8vh;
         right: 0;
         width: 50vw;
-        height: 92vh;
+        height: 100%;
         background-color: var(--azul-navprincipal);
         flex-direction: column;
         align-items: center;

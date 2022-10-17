@@ -125,6 +125,7 @@ nav{
 .container__equipamentos{
     background-color: var(--cor-de-fundo2);
     margin-top: 5vh;
+    margin-left: 2vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;

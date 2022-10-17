@@ -128,7 +128,7 @@ nav{
     margin-left: 2vh;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
 }
